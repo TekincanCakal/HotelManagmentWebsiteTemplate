@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <title>Hotel Managment System</title>
+  <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+  <link rel="stylesheet" type="text/css" href="../assets/css/font.css" />
+  <link href="../assets/css/material-dashboard.css" rel="stylesheet" />
+  <link href="../assets/css/calendar.css" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="azure">
+      <div class="logo">
+        <a class="simple-text logo-normal" href="../index.html">Erdem Hotel</a>
+      </div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./dashboard.html">
+              <i class="material-icons">dashboard</i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./employees.html">
+              <i class="material-icons">perm_identity</i>
+              <p>Employees</p>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./reservations.html">
+              <i class="material-icons">content_paste</i>
+              <p>Reservations</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./departments.html">
+              <i class="material-icons">description</i>
+              <p>Departments</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./restuarants.html">
+              <i class="material-icons">restaurant</i>
+              <p>Restuarants</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="material-icons">notifications</i>
+                  <span class="notification">0</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./user.html">
+                  <i class="material-icons">person</i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+              <a class="btn btn-primary text-white" href="#">Add Reservation</a>
+            </div>
+            <div class="col-1"></div>
+          </div>
+          <div class="row p-3">
+            <div class="col-1"></div>
+            <div class="col-10">
+              <div class="row rounded p-3" style="background-color: white;">
+                <div class="col-4 h2">
+                  <a>April 2021</a>
+                </div>
+                <div class="col-4">
+
+                </div>
+                <div class="col-4 text-right">
+                  <button type="button" class="btn bg-success"><i class="material-icons">chevron_left</i></button>
+                  <button type="button" class="btn bg-success"><i class="material-icons">chevron_right</i></button>
+                </div>
+              </div>
+              <div class="row bg-success">
+                <div class="calendar-day-name p-3">
+                  <a>Mon</a>
+                </div>
+                <div class="calendar-day-name p-3">
+                  <a>Tue</a>
+                </div>
+                <div class="calendar-day-name p-3">
+                  <a>Wed</a>
+                </div>
+                <div class="calendar-day-name p-3">
+                  <a>Thu</a>
+                </div>
+                <div class="calendar-day-name p-3">
+                  <a>Fri</a>
+                </div>
+                <div class="calendar-day-name p-3">
+                  <a>Sat</a>
+                </div>
+                <div class="calendar-day-name p-3">
+                  <a>Sun</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="calendar-day calendar-no-current-month p-3">
+                  <a>29</a>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: pink;">
+                    <a>Double × 2</a>
+                  </div>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: grey;">
+                    <a>Single × 3</a>
+                  </div>
+                </div>
+                <div class="calendar-day calendar-no-current-month p-3">
+                  <a>30</a>
+                </div>
+                <div class="calendar-day calendar-no-current-month p-3">
+                  <a>31</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: orange;">
+                    <a>Luxury × 1</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>1</a>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>2</a>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>3</a>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>4</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="calendar-day p-3">
+                  <a>5</a>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>6</a>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>7</a>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>8</a>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>9</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: orange;">
+                    <a>Luxury × 1</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>10</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: orange;">
+                    <a>Luxury × 1</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>11</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: orange;">
+                    <a>Luxury × 1</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="calendar-day p-3">
+                  <a>12</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: pink;">
+                    <a>Double × 1</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>13</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: pink;">
+                    <a>Double × 1</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>14</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: pink;">
+                    <a>Double × 1</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>15</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: pink;">
+                    <a>Double × 1</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>16</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: pink;">
+                    <a>Double × 1</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>17</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: pink;">
+                    <a>Double × 1</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>18</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="calendar-day p-3">
+                  <a>19</a>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>20</a>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>21</a>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>22</a>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>23</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: gray;">
+                    <a>Single × 2</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>24</a>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>25</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="calendar-day p-3">
+                  <a>26</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: gray;">
+                    <a>Single × 1</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>27</a>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: pink;">
+                    <a>Double × 2</a>
+                  </div>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: gray;">
+                    <a>Single × 1</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>28</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: pink;">
+                    <a>Double × 1</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>29</a>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="text-center rounded p-1 h6 text-dark" style="background-color: pink;">
+                    <a>Double × 1</a>
+                  </div>
+                </div>
+                <div class="calendar-day p-3">
+                  <a>30</a>
+                </div>
+                <div class="calendar-day calendar-no-current-month p-3">
+                  <a>1</a>
+                </div>
+                <div class="calendar-day calendar-no-current-month p-3">
+                  <a>2</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="calendar-day calendar-no-current-month p-3">
+                  <a>3</a>
+                </div>
+                <div class="calendar-day calendar-no-current-month p-3">
+                  <a>4</a>
+                </div>
+                <div class="calendar-day calendar-no-current-month p-3">
+                  <a>5</a>
+                </div>
+                <div class="calendar-day calendar-no-current-month p-3">
+                  <a>6</a>
+                </div>
+                <div class="calendar-day calendar-no-current-month p-3">
+                  <a>7</a>
+                </div>
+                <div class="calendar-day calendar-no-current-month p-3">
+                  <a>8</a>
+                </div>
+                <div class="calendar-day calendar-no-current-month p-3">
+                  <a>9</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="copyright">
+              <script>
+                document.write(new Date().getFullYear())
+              </script><i class="material-icons">favorite</i> by
+              <a>Alper Hız</a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/chartist.min.js"></script>
+    <script src="../assets/js/material-dashboard.js" type="text/javascript"></script>
+    <script src="../assets/js/calendar.js" type="text/javascript"></script>
+</body>
+
+</html>

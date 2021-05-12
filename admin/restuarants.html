@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <title>Hotel Managment System</title>
+  <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+  <link rel="stylesheet" type="text/css" href="../assets/css/font.css" />
+  <link href="../assets/css/material-dashboard.css" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="azure">
+      <div class="logo">
+        <a class="simple-text logo-normal" href="../index.html">Erdem Hotel</a>
+      </div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./dashboard.html">
+              <i class="material-icons">dashboard</i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./employees.html">
+              <i class="material-icons">perm_identity</i>
+              <p>Employees</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./reservations.html">
+              <i class="material-icons">content_paste</i>
+              <p>Reservations</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./departments.html">
+              <i class="material-icons">description</i>
+              <p>Departments</p>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./restuarants.html">
+              <i class="material-icons">restaurant</i>
+              <p>Restuarants</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="material-icons">notifications</i>
+                  <span class="notification">0</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./user.html">
+                  <i class="material-icons">person</i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <a class="btn btn-primary text-white" href="./add_restuarant.html">Add Restuarant</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card">
+              <div class="card-header card-header-warning">
+                <h4 class="card-title">Restuarants</h4>
+              </div>
+              <div class="card-body table-responsive">
+                <table class="table table-hover">
+                  <thead class="text-warning">
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Open Time</th>
+                    <th>Close Time</th>
+                    <th>Details</th>
+                    <th>Table Count</th>
+                    <th>Actions</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Lobby Cafe</td>
+                      <td>07:00</td>
+                      <td>23:00</td>
+                      <td>
+                        In this cafe, there are many options in terms of snacks and fast food.
+                        <br>
+                        Also, it is preferred by our customers with its affordable prices.
+                        <br>
+                      </td>
+                      <td>80</td>
+                      <td>
+                        <button type="button" class="btn btn-primary"><i class="material-icons">visibility</i></button>
+                        <button type="button" class="btn btn-success"><i class="material-icons">edit</i></button>
+                        <button type="button" class="btn btn-danger"><i
+                            class="material-icons">delete_forever</i></button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Seraser Fine Dining Restaurant</td>
+                      <td>15:00</td>
+                      <td>23:00</td>
+                      <td>
+                        At Seraser Fine Dining Restaurant, you can taste new flavors you have never tasted anywhere
+                        else.
+                        <br>
+                        It has always made the users happy with its high quality food. It is one of the best among the
+                        <br>
+                        luxury restaurants.
+                        <br>
+                      </td>
+                      <td>70</td>
+                      <td>
+                        <button type="button" class="btn btn-primary"><i class="material-icons">visibility</i></button>
+                        <button type="button" class="btn btn-success"><i class="material-icons">edit</i></button>
+                        <button type="button" class="btn btn-danger"><i
+                            class="material-icons">delete_forever</i></button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Red Dragon</td>
+                      <td>14:00</td>
+                      <td>00:00</td>
+                      <td>
+                        Have you ever tried sushi before? If you haven't tried it, it's time. You are faced with
+                        exquisite
+                        <br>
+                        Chinese cuisine. If you want to try the flavors of Chinese culture with our Chinese chef, you
+                        should
+                        <br>
+                        definitely try Red Dragon.
+                        <br>
+                      </td>
+                      <td>40</td>
+                      <td>
+                        <button type="button" class="btn btn-primary"><i class="material-icons">visibility</i></button>
+                        <button type="button" class="btn btn-success"><i class="material-icons">edit</i></button>
+                        <button type="button" class="btn btn-danger"><i
+                            class="material-icons">delete_forever</i></button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Grand Friends Fish & Steak Restaurant</td>
+                      <td>17:00</td>
+                      <td>00:00</td>
+                      <td>
+                        If you love seafood, this place is for full size. You should try the beautiful water prepared by
+                        our private chefs.
+                        <br>
+                        There are all kinds of seafood from lobster to mussels, squid to crabs.
+                        <br>
+                      </td>
+                      <td>100</td>
+                      <td>
+                        <button type="button" class="btn btn-primary"><i class="material-icons">visibility</i></button>
+                        <button type="button" class="btn btn-success"><i class="material-icons">edit</i></button>
+                        <button type="button" class="btn btn-danger"><i
+                            class="material-icons">delete_forever</i></button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="copyright">
+              <script>
+                document.write(new Date().getFullYear())
+              </script><i class="material-icons">favorite</i> by
+              <a>Alper Hız</a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/chartist.min.js"></script>
+    <script src="../assets/js/material-dashboard.js" type="text/javascript"></script>
+</body>
+
+</html>
